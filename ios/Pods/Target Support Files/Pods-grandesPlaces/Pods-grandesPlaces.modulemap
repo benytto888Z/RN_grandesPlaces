@@ -1,0 +1,6 @@
+module Pods_grandesPlaces {
+  umbrella header "Pods-grandesPlaces-umbrella.h"
+
+  export *
+  module * { export * }
+}

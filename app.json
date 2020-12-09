@@ -1,0 +1,12 @@
+{
+  "name": "grandesPlaces",
+  "displayName": "grandesPlaces",
+  "expo": {
+    "name": "grandesPlaces",
+    "slug": "grandesPlaces",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

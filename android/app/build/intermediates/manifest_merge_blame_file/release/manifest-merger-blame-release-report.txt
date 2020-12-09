@@ -1,0 +1,270 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.grandesplaces"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:2:3-64
+11-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:2:20-62
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:3:3-76
+12-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:3:20-74
+13    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+13-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:4:3-75
+13-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:4:20-73
+14    <!-- OPTIONAL PERMISSIONS, REMOVE WHATEVER YOU DO NOT NEED -->
+15    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+15-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:6:3-72
+15-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:6:20-70
+16    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+16-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:7:3-77
+16-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:7:20-75
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:8:3-72
+17-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:8:20-70
+18    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+18-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:9:3-71
+18-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:9:20-69
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:10:3-63
+19-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:10:20-61
+20    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+20-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:11:3-77
+20-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:11:20-75
+21    <!-- These require runtime permissions on M -->
+22    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+22-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:13:3-78
+22-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:13:20-76
+23    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+23-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:14:3-76
+23-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:14:20-74
+24    <uses-permission android:name="android.permission.CAMERA" />
+24-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:15:3-62
+24-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:15:20-60
+25    <uses-permission android:name="android.permission.READ_CONTACTS" />
+25-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:16:3-69
+25-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:16:20-67
+26    <uses-permission android:name="android.permission.READ_CALENDAR" />
+26-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:17:3-69
+26-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:17:20-67
+27    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+27-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:18:3-70
+27-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:18:20-68
+28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+28-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:19:3-77
+28-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:19:20-75
+29    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+29-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:20:3-68
+29-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:20:20-66
+30    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+30-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:21:3-78
+30-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:21:20-76
+31    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+31-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:22:3-70
+31-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:22:20-68
+32    <uses-permission android:name="android.permission.STORAGE" />
+32-->[:expo-file-system] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-66
+32-->[:expo-file-system] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:22-63
+33    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+33-->[:expo-location] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-77
+33-->[:expo-location] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-74
+34
+35    <uses-feature
+35-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b328f6be7f894503a07b67f23e4d7771/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+36        android:glEsVersion="0x00020000"
+36-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b328f6be7f894503a07b67f23e4d7771/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+37        android:required="true" />
+37-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b328f6be7f894503a07b67f23e4d7771/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+38
+39    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+39-->[io.nlopez.smartlocation:library:3.2.11] /Users/mac/.gradle/caches/transforms-2/files-2.1/bc6f2889432fe3dc89188c712b7aa5cb/jetified-library-3.2.11/AndroidManifest.xml:15:5-98
+39-->[io.nlopez.smartlocation:library:3.2.11] /Users/mac/.gradle/caches/transforms-2/files-2.1/bc6f2889432fe3dc89188c712b7aa5cb/jetified-library-3.2.11/AndroidManifest.xml:15:22-95
+40    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" /> <!-- END OPTIONAL PERMISSIONS -->
+40-->[io.nlopez.smartlocation:library:3.2.11] /Users/mac/.gradle/caches/transforms-2/files-2.1/bc6f2889432fe3dc89188c712b7aa5cb/jetified-library-3.2.11/AndroidManifest.xml:16:5-94
+40-->[io.nlopez.smartlocation:library:3.2.11] /Users/mac/.gradle/caches/transforms-2/files-2.1/bc6f2889432fe3dc89188c712b7aa5cb/jetified-library-3.2.11/AndroidManifest.xml:16:22-91
+41    <application
+41-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:24:3-55:17
+42        android:name="com.grandesplaces.MainApplication"
+42-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:25:5-36
+43        android:allowBackup="false"
+43-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:29:5-32
+44        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+44-->[androidx.core:core:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/82017ce93c4e5d1b907f6f63f6c48c66/core-1.1.0/AndroidManifest.xml:24:18-86
+45        android:icon="@mipmap/ic_launcher"
+45-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:27:5-39
+46        android:label="@string/app_name"
+46-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:26:5-37
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:28:5-50
+48        android:theme="@style/AppTheme" >
+48-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:30:5-36
+49        <meta-data
+49-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:32:5-126
+50            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+50-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:32:16-67
+51            android:value="https://exp.host/@benytto/grandesPlaces" />
+51-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:32:68-123
+52        <meta-data
+52-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:33:5-94
+53            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+53-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:33:16-68
+54            android:value="38.0.0" />
+54-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:33:69-91
+55        <!-- <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDvyjdrGPPnfbitbjAUAqj7pEA0_FkSNqM" /> -->
+56        <meta-data
+56-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:35:5-119
+57            android:name="com.google.android.geo.API_KEY"
+57-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:35:16-61
+58            android:value="AIzaSyDvyjdrGPPnfbitbjAUAqj7pEA0_FkSNqM" />
+58-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:35:62-117
+59
+60        <uses-library
+60-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:36:5-83
+61            android:name="org.apache.http.legacy"
+61-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:36:19-56
+62            android:required="false" />
+62-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:36:57-81
+63
+64        <meta-data
+64-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:37:5-99
+65            android:name="expo.modules.updates.EXPO_RELEASE_CHANNEL"
+65-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:37:16-72
+66            android:value="default" />
+66-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:37:73-96
+67
+68        <activity
+68-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:39:3-52:16
+69            android:name="com.grandesplaces.MainActivity"
+69-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:40:5-33
+70            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+70-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:42:7-84
+71            android:label="@string/app_name"
+71-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:41:7-39
+72            android:launchMode="singleTask"
+72-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:43:7-38
+73            android:screenOrientation="portrait"
+73-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:44:7-43
+74            android:theme="@style/Theme.App.SplashScreen"
+74-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:46:7-52
+75            android:windowSoftInputMode="adjustResize" >
+75-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:45:7-49
+76            <intent-filter>
+76-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:48:7-51:23
+77                <action android:name="android.intent.action.MAIN" />
+77-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:49:9-60
+77-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:49:17-58
+78
+79                <category android:name="android.intent.category.LAUNCHER" />
+79-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:50:9-68
+79-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:50:19-66
+80            </intent-filter>
+81        </activity>
+82        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+82-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:53:5-81
+82-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:53:15-79
+83        <activity
+83-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:54:5-124
+84            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+84-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:54:15-78
+85            android:theme="@style/Base.Theme.AppCompat" />
+85-->/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/src/main/AndroidManifest.xml:54:79-122
+86
+87        <meta-data
+87-->[:unimodules-react-native-adapter] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-14:91
+88            android:name="org.unimodules.core.AppLoader#react-native-headless"
+88-->[:unimodules-react-native-adapter] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-79
+89            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
+89-->[:unimodules-react-native-adapter] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/@unimodules/react-native-adapter/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-88
+90
+91        <provider
+91-->[:expo-file-system] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:9-27:20
+92            android:name="expo.modules.filesystem.FileSystemFileProvider"
+92-->[:expo-file-system] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-74
+93            android:authorities="com.grandesplaces.FileSystemFileProvider"
+93-->[:expo-file-system] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-74
+94            android:exported="false"
+94-->[:expo-file-system] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-37
+95            android:grantUriPermissions="true" >
+95-->[:expo-file-system] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:13-47
+96            <meta-data
+96-->[:expo-file-system] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-26:70
+97                android:name="android.support.FILE_PROVIDER_PATHS"
+97-->[:expo-file-system] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:17-67
+98                android:resource="@xml/file_system_provider_paths" />
+98-->[:expo-file-system] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:17-67
+99        </provider> <!-- https://developer.android.com/guide/topics/manifest/provider-element.html -->
+100        <provider
+100-->[:expo-image-picker] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:9-22:20
+101            android:name="expo.modules.imagepicker.ImagePickerFileProvider"
+101-->[:expo-image-picker] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-76
+102            android:authorities="com.grandesplaces.ImagePickerFileProvider"
+102-->[:expo-image-picker] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-75
+103            android:exported="false"
+103-->[:expo-image-picker] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-37
+104            android:grantUriPermissions="true" >
+104-->[:expo-image-picker] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-47
+105            <meta-data
+105-->[:expo-file-system] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-26:70
+106                android:name="android.support.FILE_PROVIDER_PATHS"
+106-->[:expo-file-system] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:17-67
+107                android:resource="@xml/image_picker_provider_paths" />
+107-->[:expo-file-system] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-file-system/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:17-67
+108        </provider>
+109
+110        <service
+110-->[:expo-location] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-18:40
+111            android:name="expo.modules.location.services.LocationTaskService"
+111-->[:expo-location] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-78
+112            android:exported="false" />
+112-->[:expo-location] /Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/node_modules/expo-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-37
+113
+114        <activity
+114-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6ac2022b6c0c382d7cc42986f5525abf/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+115            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+115-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6ac2022b6c0c382d7cc42986f5525abf/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+116            android:exported="false"
+116-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6ac2022b6c0c382d7cc42986f5525abf/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6ac2022b6c0c382d7cc42986f5525abf/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+118
+119        <meta-data
+119-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/dbe112f3f52fa8871d57654a8b8292af/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+120            android:name="com.google.android.gms.version"
+120-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/dbe112f3f52fa8871d57654a8b8292af/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+121            android:value="@integer/google_play_services_version" />
+121-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/dbe112f3f52fa8871d57654a8b8292af/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+122
+123        <service
+123-->[androidx.room:room-runtime:2.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/d2ec02dc7caa3dec616b3f2290920483/room-runtime-2.1.0/AndroidManifest.xml:25:9-27:40
+124            android:name="androidx.room.MultiInstanceInvalidationService"
+124-->[androidx.room:room-runtime:2.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/d2ec02dc7caa3dec616b3f2290920483/room-runtime-2.1.0/AndroidManifest.xml:26:13-74
+125            android:exported="false" />
+125-->[androidx.room:room-runtime:2.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/d2ec02dc7caa3dec616b3f2290920483/room-runtime-2.1.0/AndroidManifest.xml:27:13-37
+126        <service
+126-->[io.nlopez.smartlocation:library:3.2.11] /Users/mac/.gradle/caches/transforms-2/files-2.1/bc6f2889432fe3dc89188c712b7aa5cb/jetified-library-3.2.11/AndroidManifest.xml:19:9-21:40
+127            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+127-->[io.nlopez.smartlocation:library:3.2.11] /Users/mac/.gradle/caches/transforms-2/files-2.1/bc6f2889432fe3dc89188c712b7aa5cb/jetified-library-3.2.11/AndroidManifest.xml:20:13-132
+128            android:exported="false" />
+128-->[io.nlopez.smartlocation:library:3.2.11] /Users/mac/.gradle/caches/transforms-2/files-2.1/bc6f2889432fe3dc89188c712b7aa5cb/jetified-library-3.2.11/AndroidManifest.xml:21:13-37
+129        <service
+129-->[io.nlopez.smartlocation:library:3.2.11] /Users/mac/.gradle/caches/transforms-2/files-2.1/bc6f2889432fe3dc89188c712b7aa5cb/jetified-library-3.2.11/AndroidManifest.xml:22:9-24:40
+130            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+130-->[io.nlopez.smartlocation:library:3.2.11] /Users/mac/.gradle/caches/transforms-2/files-2.1/bc6f2889432fe3dc89188c712b7aa5cb/jetified-library-3.2.11/AndroidManifest.xml:23:13-127
+131            android:exported="false" />
+131-->[io.nlopez.smartlocation:library:3.2.11] /Users/mac/.gradle/caches/transforms-2/files-2.1/bc6f2889432fe3dc89188c712b7aa5cb/jetified-library-3.2.11/AndroidManifest.xml:24:13-37
+132        <service
+132-->[io.nlopez.smartlocation:library:3.2.11] /Users/mac/.gradle/caches/transforms-2/files-2.1/bc6f2889432fe3dc89188c712b7aa5cb/jetified-library-3.2.11/AndroidManifest.xml:25:9-27:40
+133            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+133-->[io.nlopez.smartlocation:library:3.2.11] /Users/mac/.gradle/caches/transforms-2/files-2.1/bc6f2889432fe3dc89188c712b7aa5cb/jetified-library-3.2.11/AndroidManifest.xml:26:13-120
+134            android:exported="false" />
+134-->[io.nlopez.smartlocation:library:3.2.11] /Users/mac/.gradle/caches/transforms-2/files-2.1/bc6f2889432fe3dc89188c712b7aa5cb/jetified-library-3.2.11/AndroidManifest.xml:27:13-37
+135    </application>
+136
+137</manifest>

@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/mac/Documents/projets/mobApp/RN/maximilian/grandesplaces/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es-rGT/values-es-rGT.xml",
+            "map": [
+                {
+                    "source": "/Users/mac/.gradle/caches/transforms-2/files-2.1/dc7579d3b3f80ba86ddb8185d3cd8fb0/jetified-android-image-cropper-2.7.0/res/values-es-rGT/values-es-rGT.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,170,217,273,336,422,504,581,657",
+                        "endColumns": "114,46,55,62,85,81,76,75,78",
+                        "endOffsets": "165,212,268,331,417,499,576,652,731"
+                    }
+                }
+            ]
+        }
+    ]
+}
